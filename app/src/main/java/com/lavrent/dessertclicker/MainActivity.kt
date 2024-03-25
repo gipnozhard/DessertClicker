@@ -41,10 +41,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.lavrent.dessertclicker.data.DessertUiState
 import com.lavrent.dessertclicker.model.Dessert
 import com.lavrent.dessertclicker.ui.DessertViewModel
 import com.lavrent.dessertclicker.ui.theme.DessertClickerTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
